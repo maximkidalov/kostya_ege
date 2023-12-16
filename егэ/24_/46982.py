@@ -1,4 +1,4 @@
-with open('46982.txt') as f:
+with open('24_/46982.txt') as f:
     s = f.readline()
     s = s.split('E')
     k = 0

@@ -1,4 +1,4 @@
-f = open('45258.txt')
+f = open('24_/45258.txt')
 n = f.read()
 n = n.replace('AB', 'x')
 n = n.replace('CB', 'x')

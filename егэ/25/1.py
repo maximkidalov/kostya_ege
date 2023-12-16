@@ -1,4 +1,4 @@
-for x in range(338472, 338495):
+for x in range(338472, 338494 + 1):
     divs = set()
     for d in range(1, round(x ** 0.5) + 1):
         if x % d == 0:

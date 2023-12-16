@@ -5,4 +5,4 @@ def prost(n):
     return True
 
 
-print(prost(7))
+print(prost(25))

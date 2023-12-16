@@ -1,11 +1,8 @@
-n = int(input())
-arr1 = list(map(int, input().split()))
-arr2 = list(map(int, input().split()))
-arr3 = []
-
-for i in range(n):
-    arr3.append(arr1[i])
-    arr3.append(arr2[i])
-
-for i in range(len(arr3)):
-    print(arr3[i], end=' ')
+# умный способ
+x = 36
+divs = []
+for d in range(1, round(x ** 0.5) + 1):
+    if x % d == 0:
+        divs.append(d)
+        divs.append(x // d)
+print(divs)

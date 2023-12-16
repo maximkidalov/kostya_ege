@@ -1,6 +1,6 @@
-f = open('27686.txt')
+f = open('24_/27686.txt')
 s = f.readline()
-mx = 1
+mx = 0
 cnt = 1
 for i in range(len(s)-1):
     if s[i] == 'X' and s[i+1] == 'X':
